@@ -8,6 +8,11 @@ body {
     background-color: #d9dcd6;
 }
 
+/*
+header contains: 
+h1 heading with a class "seo" is highlightened by #d9dcd6
+nav pane with unordered list 
+*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,6 +55,9 @@ p {
     font-size: 16px;
 }
 
+/*
+hero class has a decorative image shown under the heading
+*/
 
 .hero {
     height: 800px;
@@ -60,7 +68,10 @@ p {
     background-position: center;
 }
 
+/*
+content class: a section having multiple figures (img, h2 heading and paragraph)
 
+*/
 .content {
     width: 75%;
     display: inline-block;
@@ -85,6 +96,17 @@ p {
     font-size: 36px;
 }
 
+/*
+#<id-name> img selects a specific image and assign it's float position: 
+
+-----
+#search-engine-optimization: left
+#online-reputation-management: right
+#social-media-marketing: left 
+-----
+*/
+
+
 #search-engine-optimization img {
     float: left;
     margin-right: 25px;
@@ -100,6 +122,9 @@ p {
     margin-right: 25px;   
 }
 
+/*
+benefits class: another section having multiple figures (img, h3 heading and paragraph)
+*/
 
 
 .benefits {
@@ -130,6 +155,7 @@ p {
 }
 
 
+/* footer */
 
 footer {
     padding: 30px;
